@@ -38,16 +38,6 @@
 			background-position: 5% 5%;
 		}
 	}
-
-	.glass {
-		background: rgba(0, 0, 0, 0.5);
-		backdrop-filter: blur(4px);
-		-webkit-backdrop-filter: blur(4px);
-		border-radius: 10px;
-		background-clip: text;
-		-webkit-background-clip: text;
-		color: transparent;
-	}
 }
 
 @font-face {
