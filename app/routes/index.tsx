@@ -36,28 +36,28 @@ export default function Index() {
 			<footer className="text-2xl lg:text-4xl">
 				<nav className="flex flex-col p-4 fixed bottom-0">
 					<a
-						className="glass hover:text-[#d83bd2]/50 hover:italic"
+						className="glass hover:text-[#d83bd2] hover:italic"
 						href="mailto:solberg@duck.com"
 						target="_blank"
 					>
 						Contact
 					</a>
 					<a
-						className="glass hover:text-[#6bd968]/50 hover:italic"
+						className="glass hover:text-[#6bd968] hover:bg- hover:italic"
 						href="https://github.com/spencersolberg"
 						target="_blank"
 					>
 						GitHub
 					</a>
 					<a
-						className="glass hover:text-[#3992ff]/50 hover:italic"
+						className="glass hover:text-[#3992ff] hover:bg- hover:italic"
 						href="https://www.twitter.com/spencersolberg_"
 						target="_blank"
 					>
 						Twitter
 					</a>
 					<a
-						className="glass hover:text-[#f44250]/50 hover:italic"
+						className="glass hover:text-[#f44250] hover:bg- hover:italic"
 						href="https://www.instagram.com/spencersolberg"
 						target="_blank"
 					>
