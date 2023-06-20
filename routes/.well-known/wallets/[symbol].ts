@@ -1,6 +1,7 @@
-import { HandlerContext, PageProps } from "$fresh/server.ts";
-
+import { HandlerContext } from "$fresh/server.ts";
 import { RouteConfig } from "$fresh/server.ts";
+
+import { wallets } from "../../../utils/wallets.ts";
 
 export const config: RouteConfig = {
   routeOverride: "/.well-known/wallets/:symbol",
@@ -8,11 +9,8 @@ export const config: RouteConfig = {
 
 export const handler = (_req: Request, ctx: HandlerContext): Response => {
   const symbol = ctx.params["symbol"];
-  // create set of symbols mapped to addresses
-  const symbols = new Map<string, string>();
-  symbols.set("HNS", "hs1qqsc065xcsh68nt25h4vsmgx7vcyrwtajlhlxlc");
 
-  const address = symbols.get(symbol.toUpperCase());
+  const address = wallets.get(symbol.toUpperCase());
   if (!address) {
     return new Response("Address not found", { status: 404 });
   }
