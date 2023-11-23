@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 
-export default function Home() {
+export default function Music() {
 
   const releases = [
     "https://song.link/gl"
@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <div className="h-screen mt-4">
         <a href="/" className="text-white text-2xl font-serif px-4 hover:italic underline">
-          spencersolberg.com
+          go back
         </a>
         <div class="flex-1 flex px-4 pt-8 justify-center">
           <p class="text-center text-white text-6xl lg:text-7xl font-bold font-serif md:rotate-0">
