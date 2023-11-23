@@ -14,7 +14,7 @@ export default function Home() {
         
         `}
         </style>
-        <meta name="theme-color" content="#4C00AE"></meta>
+        <meta name="theme-color" content="#4C00AE" />
       </Head>
       <div class="h-screen flex flex-col">
         <div class="flex-1 flex items-center justify-center">
@@ -24,21 +24,26 @@ export default function Home() {
         </div>
         <div class="flex justify-between items-center text-white p-4 font-serif">
           <ul class="flex flex-col text-4xl">
+          <li class="pb-4 transform-gpu transition-all hover:-translate-y-2 hover:translate-x-2 hover:scale-110">
+              <a href="/music">
+                Music
+              </a>
+            </li>
             <li class="pb-4 transform-gpu transition-all hover:-translate-y-2 hover:translate-x-2 hover:scale-110">
-              <a href="https://www.twitter.com/spencersolberg_" target="_blank">
+              <a href="https://www.twitter.com/spencersolberg_" target="_blank" rel="noreferrer">
                 Twitter
               </a>
             </li>
             <li class="pb-4 transform-gpu transition-all hover:-translate-y-2 hover:translate-x-2 hover:scale-110">
               <a
                 href="https://www.instagram.com/spencersolberg"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Instagram
               </a>
             </li>
             <li class="transform-gpu transition-all hover:-translate-y-2 hover:translate-x-2 hover:scale-110">
-              <a href="https://github.com/spencersolberg" target="_blank">
+              <a href="https://github.com/spencersolberg" target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </li>

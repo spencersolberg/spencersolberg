@@ -8,7 +8,7 @@ export const config: RouteConfig = {
 };
 
 export const handler = (_req: Request, ctx: HandlerContext): Response => {
-  const symbol = ctx.params["symbol"];
+  const symbol = ctx.params.symbol;
 
   const address = wallets.get(symbol.toUpperCase());
   if (!address) {
