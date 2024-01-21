@@ -4,7 +4,7 @@ export default function Music() {
 
   const releases = [
     "https://song.link/gl",
-    "https://song.link/personal-remix
+    "https://song.link/personal-remix"
   ]
 
   return (
