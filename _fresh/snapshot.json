@@ -1,0 +1,15 @@
+{
+  "build_id": "f2c27db252b5fca49946ff3251a059642f2b221e",
+  "files": {
+    "main.js": [
+      "chunk-NFMR776E.js"
+    ],
+    "deserializer.js": [],
+    "client.js": [],
+    "signals.js": [
+      "chunk-NFMR776E.js"
+    ],
+    "chunk-NFMR776E.js": [],
+    "metafile.json": []
+  }
+}

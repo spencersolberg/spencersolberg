@@ -15,11 +15,25 @@ export const handler: Handlers<Data> = {
 export default function Projects(props: PageProps<Data>) {
   const projects = [
     {
-      title: "Fresh Ears",
-      description: "Ear training incremental game",
-      url: "https://ears.spencersolberg.com",
-      handshakeUrl: "https://ears.spencersolberg",
-      image: "/fresh-ears.webp",
+        title: "Fresh Ears",
+        description: "Ear training incremental game",
+        url: "https://ears.spencersolberg.com",
+        handshakeUrl: "https://ears.spencersolberg",
+        image: "/fresh-ears.webp",
+    },
+    {
+        title: "Syllabify",
+        description: "Raycast extension for splitting words into syllables",
+        url: "https://github.com/spencersolberg/syllabify",
+        handshakeUrl: "https://github.com/spencersolberg/syllabify",
+        image: "/syllabify.webp",
+    },
+    {
+        title: "Music Copyright Notices",
+        description: "Raycast extension for gathering music copyright details",
+        url: "https://github.com/spencersolberg/music-copyright-notices",
+        handshakeUrl: "https://github.com/spencersolberg/music-copyright-notices",
+        image: "/music-copyright-notices.webp",
     },
     {
         title: "Blog",
@@ -38,8 +52,8 @@ export default function Projects(props: PageProps<Data>) {
     {
         title: "Shakeplace",
         description: "Collaborative pixel art with Handshake authentication",
-        url: "https://shake.place",
-        handshakeUrl: "https://shakeplace",
+        url: "https://github.com/spencersolberg/shakeplace",
+        handshakeUrl: "https://github.com/spencersolberg/shakeplace",
         image: "shakeplace.webp"
     }
   ];
