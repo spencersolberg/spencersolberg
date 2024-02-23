@@ -3,6 +3,7 @@ import { Head } from "$fresh/runtime.ts";
 export default function Music() {
 
   const releases = [
+    "https://song.link/l2m",
     "https://song.link/personal-remix",
     "https://song.link/gl"
   ]
